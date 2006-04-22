@@ -25,6 +25,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Engage is a dockbar based on the Enlightenment Foundation Libraries.
 It currently works as an app-launcher, taskbar and a system tray.
 
+%description -l pl
+Engage to pasek dokuj±cy oparty na podstawowych bibliotekach
+Enlightenmenta. Aktualnie ma funkcjonalno¶æ uruchamiania aplikacji,
+paska zadañ i zasobnika systemowego.
+
 %prep
 %setup -q -n %{_module_name}
 sed 's/ 16\.999/ 0.16.999/' -i configure.in
