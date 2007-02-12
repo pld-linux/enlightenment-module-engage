@@ -1,7 +1,7 @@
 %define		_module_name	engage
 %define		_snap	20060419
 Summary:	Enlightenment DR17 module: engage
-Summary(pl.UTF-8):   Moduł Enlightenmenta DR17: engage
+Summary(pl.UTF-8):	Moduł Enlightenmenta DR17: engage
 Name:		enlightenment-module-%{_module_name}
 Version:	0.0.9
 Release:	0.%{_snap}.1
