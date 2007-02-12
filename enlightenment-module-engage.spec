@@ -1,7 +1,7 @@
 %define		_module_name	engage
 %define		_snap	20060419
 Summary:	Enlightenment DR17 module: engage
-Summary(pl):	Modu³ Enlightenmenta DR17: engage
+Summary(pl.UTF-8):   ModuÅ‚ Enlightenmenta DR17: engage
 Name:		enlightenment-module-%{_module_name}
 Version:	0.0.9
 Release:	0.%{_snap}.1
@@ -26,10 +26,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Engage is a dockbar based on the Enlightenment Foundation Libraries.
 It currently works as an app-launcher, taskbar and a system tray.
 
-%description -l pl
-Engage to pasek dokuj±cy oparty na podstawowych bibliotekach
-Enlightenmenta. Aktualnie ma funkcjonalno¶æ uruchamiania aplikacji,
-paska zadañ i zasobnika systemowego.
+%description -l pl.UTF-8
+Engage to pasek dokujÄ…cy oparty na podstawowych bibliotekach
+Enlightenmenta. Aktualnie ma funkcjonalnoÅ›Ä‡ uruchamiania aplikacji,
+paska zadaÅ„ i zasobnika systemowego.
 
 %prep
 %setup -q -n %{_module_name}
